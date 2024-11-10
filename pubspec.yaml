@@ -1,0 +1,43 @@
+name: stt_and_translation_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+
+#--------------- PACKAGES ------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  gap: ^3.0.1
+  connectivity_plus: ^6.0.5
+  logger: ^2.4.0
+
+  # Icons
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  get: ^4.6.6
+
+  # Product Specific
+  http: ^1.2.2
+  speech_to_text: ^7.0.0
+  translator: ^1.0.0
+
+
+  #--------------- ./ PACKAGES END ------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
