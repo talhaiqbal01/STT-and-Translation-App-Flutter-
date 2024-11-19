@@ -20,7 +20,7 @@ This Flutter application allows users to convert their speech into text and tran
     ```
 2. Navigate into the project directory:
     ```bash
-    cd weather_app
+    cd STT-and-Translation-App-Flutter-
     ```
 3. Install dependencies:
     ```bash
