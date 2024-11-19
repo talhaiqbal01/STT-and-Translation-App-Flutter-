@@ -1,3 +1,4 @@
+
 # Speech-to-Text & Translation App 🎙️🌐
 
 This Flutter application allows users to convert their speech into text and translate it into different languages. Using the `speech_to_text` package for speech recognition and `translator` for translation, the app provides a simple interface to convert audio input into text and translate it to a selected language.
@@ -10,22 +11,25 @@ This Flutter application allows users to convert their speech into text and tran
 -   **Error Handling**: Displays error messages and provides options to retry if issues arise during speech recognition or translation.
 -   **Simple UI**: User-friendly interface to start/stop listening, view recognized text, select languages, and display translations.
 
+
 ## Installation 📲
 
 1. Clone this repository:
-    ```bash  
-git clone https://github.com/talhaiqbal01/STT-and-Translation-App-Flutter-.git
- ```2. Navigate into the project directory:  
-    ```bash  
-  cd weather_app  
- ```3. Install dependencies:  
-    ```bash  
-  flutter pub get  
- ```4. Run the app on an emulator or a connected device:  
-    ```bash  
-  flutter run  
- ```  
-
+    ```bash
+    git clone https://github.com/talhaiqbal01/STT-and-Translation-App-Flutter-.git
+    ```
+2. Navigate into the project directory:
+    ```bash
+    cd weather_app
+    ```
+3. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4. Run the app on an emulator or a connected device:
+    ```bash
+    flutter run
+    ```
 ## Code Overview 🧩
 
 -   **`HomeScreen`**: The main screen that displays recognized text, a language dropdown for translation, and a translate button. Users can start/stop listening and view translation results.
